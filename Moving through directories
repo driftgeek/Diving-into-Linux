@@ -1,0 +1,66 @@
+driftgeek@driftgeek:~$ ls /
+bin    dev   initrd.img      lib64       mnt   root  snap      sys  var
+boot   etc   initrd.img.old  lost+found  opt   run   srv       tmp  vmlinuz
+cdrom  home  lib             media       proc  sbin  swapfile  usr  vmlinuz.old
+driftgeek@driftgeek:~$ ls a/
+ls: cannot access 'a/': No such file or directory
+driftgeek@driftgeek:~$ clear
+
+driftgeek@driftgeek:~$ pwd
+/home/driftgeek
+driftgeek@driftgeek:~$ ls Downloads/
+driftgeek@driftgeek:~$ ls/
+bash: ls/: No such file or directory
+driftgeek@driftgeek:~$ ls
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
+driftgeek@driftgeek:~$ ls /
+bin    dev   initrd.img      lib64       mnt   root  snap      sys  var
+boot   etc   initrd.img.old  lost+found  opt   run   srv       tmp  vmlinuz
+cdrom  home  lib             media       proc  sbin  swapfile  usr  vmlinuz.old
+driftgeek@driftgeek:~$ ls home
+ls: cannot access 'home': No such file or directory
+driftgeek@driftgeek:~$ ls /home
+driftgeek
+driftgeek@driftgeek:~$ ls /home/driftgeek
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
+driftgeek@driftgeek:~$ ls /home/driftgeek
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
+driftgeek@driftgeek:~$ ls /home/driftgeek/D
+ls: cannot access '/home/driftgeek/D': No such file or directory
+driftgeek@driftgeek:~$ clear
+
+driftgeek@driftgeek:~$ ls
+Desktop  Documents  Downloads  examples.desktop  Music  Pictures  Public  Templates  Videos
+driftgeek@driftgeek:~$ ls /home/driftgeek/Desktop
+driftgeek@driftgeek:~$ cd /
+driftgeek@driftgeek:/$ ls
+bin    dev   initrd.img      lib64       mnt   root  snap      sys  var
+boot   etc   initrd.img.old  lost+found  opt   run   srv       tmp  vmlinuz
+cdrom  home  lib             media       proc  sbin  swapfile  usr  vmlinuz.old
+driftgeek@driftgeek:/$ cd home/
+driftgeek@driftgeek:/home$ ls
+driftgeek
+driftgeek@driftgeek:/home$ cd driftgeek/
+driftgeek@driftgeek:~$ ls
+Desktop  Documents  Downloads  examples.desktop  Music  Pictures  Public  Templates  Videos
+driftgeek@driftgeek:~$ cd Do
+bash: cd: Do: No such file or directory
+driftgeek@driftgeek:~$ cd /
+driftgeek@driftgeek:/$ ls
+bin    dev   initrd.img      lib64       mnt   root  snap      sys  var
+boot   etc   initrd.img.old  lost+found  opt   run   srv       tmp  vmlinuz
+cdrom  home  lib             media       proc  sbin  swapfile  usr  vmlinuz.old
+driftgeek@driftgeek:/$ pwd
+/
+driftgeek@driftgeek:/$ cd /home/driftgeek/Downloads
+driftgeek@driftgeek:~/Downloads$ cd /
+driftgeek@driftgeek:/$ pwd
+/
+driftgeek@driftgeek:/$ cd ~
+driftgeek@driftgeek:~$ pwd
+/home/driftgeek
+driftgeek@driftgeek:~$ ^C
+driftgeek@driftgeek:~$ 
